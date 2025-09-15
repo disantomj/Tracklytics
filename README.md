@@ -7,7 +7,7 @@ A comprehensive music analytics platform that integrates with Spotify to analyze
 ### Music Personality Analysis Engine
 **Intelligent Categorization**: Advanced algorithm analyzes listening patterns to determine personality archetypes
 - "The Mainstream Explorer" (diverse genres + popular tracks)
-- "The Underground Adventurer" (diverse genres + niche discoveries)
+- "The Underground Adventurer" (diverse genres + niche discoveries) 
 - "The Chart Loyalist" (focused preferences + mainstream hits)
 - "The Niche Enthusiast" (specialized taste + underground music)
 - "The Balanced Listener" (moderate across all metrics)
@@ -20,38 +20,38 @@ A comprehensive music analytics platform that integrates with Spotify to analyze
 - Track Length Preferences: Preference analysis from quick hits to epic journeys
 
 ### Historical Intelligence & Trend Analysis
-**Personality Evolution Tracking**: Weekly automated snapshots capture taste evolution over time
-**Timeline Visualization**: Interactive historical view showing personality shifts and musical development
-**Automated Data Synchronization**: Daily background processing keeps analysis current with latest listening habits
+- **Personality Evolution Tracking**: Weekly automated snapshots capture taste evolution over time
+- **Timeline Visualization**: Interactive historical view showing personality shifts and musical development
+- **Automated Data Synchronization**: Daily background processing keeps analysis current with latest listening habits
 
 ### Modern User Experience
-**Glassmorphism Design Language**: Contemporary UI with blur effects, gradients, and smooth animations
-**Responsive Architecture**: Seamless experience across desktop, tablet, and mobile devices
-**Real-time State Management**: Dynamic loading states and error handling for optimal user experience
-**Interactive Dashboard**: Action card interface for intuitive navigation and feature discovery
+- **Glassmorphism Design Language**: Contemporary UI with blur effects, gradients, and smooth animations
+- **Responsive Architecture**: Seamless experience across desktop, tablet, and mobile devices
+- **Real-time State Management**: Dynamic loading states and error handling for optimal user experience
+- **Interactive Dashboard**: Action card interface for intuitive navigation and feature discovery
 
 ## Technical Implementation
 
 ### Architecture Highlights
-**Microservice-Ready Backend**: Modular Spring Boot architecture with clear separation of concerns
-**JWT Authentication Pipeline**: Secure token-based authentication with Spotify OAuth2 integration
-**Automated Processing Engine**: Scheduled background services for data synchronization and analysis
-**RESTful API Design**: Clean, documented endpoints following REST principles
+- **Microservice-Ready Backend**: Modular Spring Boot architecture with clear separation of concerns
+- **JWT Authentication Pipeline**: Secure token-based authentication with Spotify OAuth2 integration
+- **Automated Processing Engine**: Scheduled background services for data synchronization and analysis
+- **RESTful API Design**: Clean, documented endpoints following REST principles
 
 ### Technology Stack
-**Backend Framework**: Spring Boot 3.5.4 with Java 21
-**Database**: PostgreSQL with JPA/Hibernate ORM
-**Authentication**: Spring Security with OAuth2 client and JWT implementation
-**Frontend**: React 18 with modern hooks and Context API
-**API Integration**: Spotify Web API with comprehensive scope permissions
-**Deployment**: Docker containerization with PostgreSQL service orchestration
+- **Backend Framework**: Spring Boot 3.5.4 with Java 21
+- **Database**: PostgreSQL with JPA/Hibernate ORM
+- **Authentication**: Spring Security with OAuth2 client and JWT implementation
+- **Frontend**: React 18 with modern hooks and Context API
+- **API Integration**: Spotify Web API with comprehensive scope permissions
+- **Deployment**: Docker containerization with PostgreSQL service orchestration
 
 ### Notable Technical Solutions
-**OAuth2 Flow Management**: Complete Spotify integration with token refresh handling and scope management
-**Scheduled Data Processing**: Automated sync services with error handling and rate limiting
-**Music Analytics Algorithms**: Custom algorithms for genre diversity scoring and personality classification
-**Secure Configuration Management**: Environment-based configuration with secret management
-**Database Relationship Modeling**: Complex many-to-many relationships for user music preferences
+- **OAuth2 Flow Management**: Complete Spotify integration with token refresh handling and scope management
+- **Scheduled Data Processing**: Automated sync services with error handling and rate limiting
+- **Music Analytics Algorithms**: Custom algorithms for genre diversity scoring and personality classification
+- **Secure Configuration Management**: Environment-based configuration with secret management
+- **Database Relationship Modeling**: Complex many-to-many relationships for user music preferences
 
 ## Key Development Challenges
 
@@ -332,11 +332,11 @@ cd frontend-react && npm test
 
 This application demonstrates comprehensive full-stack development capabilities including:
 
-**Advanced Backend Architecture**: Spring Boot microservice design with security, scheduling, and external API integration
-**Complex State Management**: React application with authentication flows, real-time updates, and multi-component coordination  
-**Music Analytics Algorithms**: Custom algorithms for personality classification and trend analysis
-**Production-Ready Security**: OAuth2 implementation, JWT management, and secure configuration practices
-**Automated Data Processing**: Background services for data synchronization and personality analysis
-**Modern DevOps Practices**: Docker containerization, environment management, and deployment automation
+- **Advanced Backend Architecture**: Spring Boot microservice design with security, scheduling, and external API integration
+- **Complex State Management**: React application with authentication flows, real-time updates, and multi-component coordination  
+- **Music Analytics Algorithms**: Custom algorithms for personality classification and trend analysis
+- **Production-Ready Security**: OAuth2 implementation, JWT management, and secure configuration practices
+- **Automated Data Processing**: Background services for data synchronization and personality analysis
+- **Modern DevOps Practices**: Docker containerization, environment management, and deployment automation
 
 **Note**: This application requires active Spotify account authentication and demonstrates real-world integration with third-party APIs for production-ready music analytics.
