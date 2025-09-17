@@ -1,4 +1,4 @@
-# 🎵 Tracklytics
+# Tracklytics
 
 A comprehensive music analytics platform that integrates with Spotify to analyze users' listening habits and generate personalized music personality insights. Demonstrates full-stack development with OAuth2 integration, automated data processing, and advanced analytics algorithms.
 
@@ -85,7 +85,7 @@ Before you begin, ensure you have the following installed:
 - **Git**
 - **Spotify Developer Account** (free)
 
-### 🎵 Spotify App Setup
+### Spotify App Setup
 
 1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 2. Click **"Create App"**
@@ -96,7 +96,7 @@ Before you begin, ensure you have the following installed:
    - **API Used**: `Web API`
 4. Save your **Client ID** and **Client Secret** - you'll need these!
 
-### 📁 Installation
+### Installation
 
 1. **Clone the repository**
    ```bash
@@ -130,7 +130,7 @@ Before you begin, ensure you have the following installed:
    
    Or install PostgreSQL locally and create a database named `tracklytics`
 
-### 🖥️ Backend Setup
+### Backend Setup
 
 1. **Navigate to the project root** (if not already there)
    ```bash
@@ -168,7 +168,7 @@ Before you begin, ensure you have the following installed:
    
    Open: `http://localhost:8080` - you should see the Tracklytics welcome page
 
-### 🎨 Frontend Setup
+### Frontend Setup
 
 1. **Open a new terminal** and navigate to the frontend directory:
    ```bash
@@ -193,7 +193,7 @@ Before you begin, ensure you have the following installed:
    
    The frontend will start at: `http://localhost:3000`
 
-## 🔑 Authentication Flow
+## Authentication Flow
 
 Tracklytics uses a JWT-based authentication system integrated with Spotify OAuth2:
 
@@ -219,7 +219,7 @@ Tracklytics uses a JWT-based authentication system integrated with Spotify OAuth
 3. **Click "Music Personality"** to generate your initial analysis
 4. **Explore additional features** like track/artist browsing and personality history
 
-## 📊 API Architecture
+## API Architecture
 
 ### Authentication Endpoints
 - `GET /oauth2/authorization/spotify` - Initiate Spotify OAuth2 flow
@@ -252,7 +252,7 @@ personality_history (id, user_id, analyzed_at, primary_personality, diversity_sc
                     mainstream_score, listening_mood, artist_loyalty, track_length_preference)
 ```
 
-## 🔧 Configuration Management
+## Configuration Management
 
 ### Environment Variables
 
@@ -266,7 +266,7 @@ personality_history (id, user_id, analyzed_at, primary_personality, diversity_sc
 | `JWT_SECRET` | JWT token signing secret | Auto-generated secure default | ❌ |
 | `JWT_EXPIRATION` | Token expiration time (seconds) | `86400` (24 hours) | ❌ |
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Docker Containerization
 
@@ -287,7 +287,7 @@ personality_history (id, user_id, analyzed_at, primary_personality, diversity_sc
 - Implement production-grade database credentials and connection pooling
 - Configure appropriate CORS origins for frontend domains
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 **Backend API Testing:**
 ```bash
@@ -304,7 +304,7 @@ curl -H "Authorization: Bearer YOUR_JWT_TOKEN" http://localhost:8080/api/auth/me
 cd frontend-react && npm test
 ```
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues & Solutions
 
